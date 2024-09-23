@@ -14,9 +14,9 @@ import CreateScreen from "../screens/CreateScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 import WelcomeScreen from "../screens/userProfile/WelcomeScreen";
 
-import app from "../app/firebase";
-import { getDatabase, ref, onValue } from 'firebase/database'
 const Tab = createBottomTabNavigator();
+
+
 
 const BottomTabNavigator = ({navigation}) => {
 const userProfile = useSelector((state)=> state.userProfileReducer.userProfile)
